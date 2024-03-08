@@ -1,0 +1,31 @@
+name: qubitLobby
+version: 1.0
+main: org.qubit.menager.Main
+author: [zuhns]
+description: Plugin privato qubit gestione Lobby
+depend: [LuckPerms]
+commands:
+  gmc:
+    description: Command for change gamemode into creative
+    usage: /<command>
+  gms:
+    description: Command for change gamemode into survival
+    usage: /<command>
+  gmsp:
+    description: Command for change gamemode into spectator
+    usage: /<command>
+  setparkour:
+    description: Command for OP' to setting the parkour location
+    usage: /<command>
+    aliases: [setpk]
+  setspawn:
+    description: Command for OP' to setting the spawn location
+    usage: /<command>
+  spawn:
+    description: Command for tp to the spawn location
+    usage: /<command>
+  party:
+    description: Manages party functions
+    usage: /<command> <create|invite|remove> [player]
+    aliases: [p]
+  
